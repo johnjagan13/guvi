@@ -8,7 +8,6 @@ try:
     for i in range(len(g)):
         c.setdefault(g[i],0)
         c[g[i]]+=1
-    print(c)
     for i in range(n):
         s[i] = input()
         a = s[i]
