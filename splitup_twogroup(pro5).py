@@ -4,10 +4,10 @@ f=0
 while(True):
  sum+=int(A)+int(B)
  if int(N)==sum:
-   print("yes")
+   print("YES")
    break
  if sum>int(N):
   f=1
   break
 if(f==1):
- print("no")
+ print("NO")
