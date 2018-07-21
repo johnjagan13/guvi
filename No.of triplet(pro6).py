@@ -1,3 +1,4 @@
+a=int(input())
 l=input().split()
 n=len(l)
 c=0
