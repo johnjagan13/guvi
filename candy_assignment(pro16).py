@@ -7,4 +7,7 @@ for i in range(1,len(l)):
 	if(l[i]>l[i-1]):
 		while(l1[i]<=l1[i-1]):
 			l1[i]+=1
-print(sum(l1))
+sum=0
+for i in l1:
+	sum+=i
+print(sum)
